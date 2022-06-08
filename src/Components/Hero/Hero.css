@@ -1,0 +1,19 @@
+.hero{
+    background: #F1F3FF;
+}
+
+#content-hero{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.btn-custom{
+    background-color: #5CB85F;
+    color: #ffff;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
