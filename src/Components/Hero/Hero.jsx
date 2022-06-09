@@ -14,7 +14,7 @@ const Hero = () => {
                         <p class="p-hero-content">
                           Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                         </p>
-                        <button class="btn btn-custom mt-4">
+                        <button class="btn btn-success mt-4">
                           Mulai Sewa Mobil
                         </button>
                     </div>

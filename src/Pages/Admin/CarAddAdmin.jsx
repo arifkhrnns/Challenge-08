@@ -126,8 +126,8 @@ const CarAddAdmin = () => {
         </div>
         
         <div>
-            <button type="button" className="btn btn-outline-primary">Cancel</button>
-            <button type="submit" className="btn btn-primary">Save</button>
+            <button type="button" className="btn btn-outline-success">Cancel</button>
+            <button type="submit" className="btn btn-success">Save</button>
         </div>
         </form>
     </div>

@@ -38,7 +38,7 @@ const Search = (props) => {
                 </div>
             </div>
             <div className={props.show ? 'col-1 px-0' : 'd-none'}>
-                <Link to='/cari' className={`btn ${props.edit ? 'btn btn-outline-primary' : 'btn-primary'} mt-5`}>
+                <Link to='/cari' className={`btn ${props.edit ? 'btn btn-outline-success' : 'btn-success'} mt-5`}>
                     <small>
                         {!props.cari ? "Edit" : "Cari mobil"}
                     </small>

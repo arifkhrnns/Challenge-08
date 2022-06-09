@@ -48,11 +48,11 @@ export const Admin = ({children}) => {
                         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                             <form className="d-flex me-4">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-primary" type="submit">Search</button>
+                                <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
                             <div className="d-flex justify-content-center align-items-center">
                                 <div className="mx-2">Unis Badri</div>
-                                <div onClick={logout} className="badge bg-primary">Logout</div>
+                                <div onClick={logout} className="badge bg-success">Logout</div>
                             </div>
                         </div>
                     </div>

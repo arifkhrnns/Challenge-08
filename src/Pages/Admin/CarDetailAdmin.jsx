@@ -65,7 +65,7 @@ const CarDetailAdmin = () => {
 
                     <div className="row flex-row-reverse mt-4 clearfix">
                         <div className="col-4 float-right">
-                            <Link to="/cars/add" className="btn btn-primary w-100">
+                            <Link to="/cars/add" className="btn btn-success w-100">
                                 <i className="fa-solid fa-square-pen"></i>
                                 Lanjutkan pembayaran
                             </Link>
@@ -92,7 +92,7 @@ const CarDetailAdmin = () => {
                             </div>
 
                             <div className="container mt-2 px-0">
-                                <Link to="/cars/add" className="btn btn-primary w-100">
+                                <Link to="/cars/add" className="btn btn-success w-100">
                                     <i className="fa-solid fa-square-pen"></i>
                                     Lanjutkan pembayaran
                                 </Link>

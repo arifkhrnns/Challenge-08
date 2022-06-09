@@ -27,7 +27,7 @@ const Navbar = (props) => {
               <p className="nav-link mx-2 font-hel font-14 font-w400">Testimonial</p>
               <p className="nav-link mx-2 font-hel font-14 font-w400">FAQ</p>
               <p className="nav-link mx-2 font-hel font-14 font-w400">
-                { !localStorage.getItem('login') ? (<Link to='/register' className="btn btn-md btn-primary">Register</Link>) : (<button onClick={logout} className="btn btn-md btn-primary">Logout</button>)}
+                { !localStorage.getItem('login') ? (<Link to='/register' className="btn btn-md btn-success">Register</Link>) : (<button onClick={logout} className="btn btn-md btn-success">Logout</button>)}
               </p>        
             </div>
            </div>

@@ -7,7 +7,7 @@ import proffesional from '../../Assets/Img/icon_professional.png'
 
 const WhyUs = () => {
     return (
-        <div className='container'>
+        <div className='container mt-5 mb-5'>
         <div className='row'>
           <h2>Why Us?</h2>
           <p className='why mt-4'>Mengapa harus pilih binar car rental?</p>

@@ -1,0 +1,37 @@
+.order {
+    background: #0D28A6;
+    border-radius: 13px;
+}
+
+.order h1 {
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.order p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.btn-sewa {
+    background: #5CB85F;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 50px auto;
+}

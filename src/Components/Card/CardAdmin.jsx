@@ -27,13 +27,13 @@ const CardAdmin = (props) => {
                 </p>
                 <div className="row mt-4">
                     <div className="col-6">
-                        <button type="button" className="btn btn-outline-primary w-100">
+                        <button type="button" className="btn btn-outline-success w-100">
                             <i className="fa-solid fa-trash"></i>
                             Hapus
                         </button>
                     </div>
                     <div className="col-6">
-                        <Link to={`/admin/car/${props.id}`} className="btn btn-primary w-100">
+                        <Link to={`/admin/car/${props.id}`} className="btn btn-success w-100">
                             <i className="fa-solid fa-square-pen"></i>
                             Edit
                         </Link>

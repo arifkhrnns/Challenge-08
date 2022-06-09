@@ -56,8 +56,8 @@ export const Login = () => {
                             </div>
                         </div>
                         <div className="row px-3">
-                            <button type="submit" className="btn btn-primary">Sign In</button>
-                            <button className="btn btn-outline-primary btn-sm mt-2">Sign In with Google</button>
+                            <button type="submit" className="btn btn-success">Sign In</button>
+                            <button className="btn btn-outline-success btn-sm mt-2">Sign In with Google</button>
                         </div>
                     </form>
                 </div>

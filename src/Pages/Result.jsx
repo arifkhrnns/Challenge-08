@@ -29,6 +29,9 @@ class Home extends Component {
     return (
       <div>
           <Navbar></Navbar>
+          <div className='' style={{height:`100px`}}>
+
+          </div>
           <Panel show="true" edit="true"></Panel>
 
           <div className="row">

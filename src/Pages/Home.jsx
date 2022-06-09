@@ -6,6 +6,8 @@ import Footer from '../Components/Footer/Footer'
 import Service from '../Components/Service/Service'
 import WhyUs from '../Components/WhyUs/WhyUs'
 import Testimonial from '../Components/Testimonial/Testimonial'
+import Order from '../Components/Order/Order'
+import FAQ from '../Components/FAQ/FAQ'
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
@@ -65,6 +67,8 @@ export default class Home extends Component {
           <Service></Service>
           <WhyUs></WhyUs>
           {/* <Testimonial  ></Testimonial> */}
+          <Order></Order>
+          <FAQ></FAQ>
           <Footer></Footer>
       </div>
     )
