@@ -10,14 +10,16 @@ const CarAdmin = (props) => {
   let [item, setItem] = useState([]);
   let [add, setAdd] = useState(false);
 
-  const datas = async () => {
-    let fetchs = await fetch('https://rent-cars-api.herokuapp.com/admin/car/');
-    let datas = await fetchs.json();
-    console.log(datas);
-    setItem(item=datas)
- }
+  
 
   useEffect(() => {
+
+    const datas = async () => {
+      let fetchs = await fetch('https://rent-cars-api.herokuapp.com/admin/car/');
+      let datas = await fetchs.json();
+      setItem(item=datas)
+    }
+    
     datas();
 
     if(location.state != null){
@@ -26,21 +28,10 @@ const CarAdmin = (props) => {
         setAdd(true);
       }
     }
-    console.log(location.state);
+  
+    
   },[item]);
 
-//   const deleteCar = async (id) => {
-
-//     try {
-//         let deleteStatus = await axios.delete('https://rent-cars-api.herokuapp.com/admin/car/'+ id);
-
-//         let result = await deleteStatus;
-//     } catch (error) {
-//         if (error.response) {
-
-//         }
-//     }
-// }
 
   return (
     <Admin>
@@ -49,20 +40,24 @@ const CarAdmin = (props) => {
         Data berhasil disimpan
       </div>
     )}
+    
+
     <div>
       <div className="d-flex justify-content-between">
           <h4 className="fw-bold">List Card</h4>
-          <Link to="/admin/car/add" className="btn btn-success">
+          <Link to="/admin/car/add" className="btn btn-primary">
               <i className="fa-solid fa-plus"></i>
               Add new card
           </Link>
       </div>
+
       <div className="my-2">
           <button type="button" className="btn btn-md btn-outline-secondary">All</button>
           <button type="button" className="btn btn-md btn-outline-secondary">Small</button>
           <button type="button" className="btn btn-md btn-outline-secondary">Medium</button>
           <button type="button" className="btn btn-md btn-outline-secondary">Large</button>
       </div>
+
       <div className="d-flex flex-wrap justify-content-between">
             { item.map((e,key)=>{ 
                 return <CardAdmin key={key} {...e}/>
