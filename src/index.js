@@ -48,8 +48,8 @@ const store = createStore(rootReducer,applyMiddleware(thunk));
 ReactDOM.render(
   <React.StrictMode>
     {/* <App/> */}
-   
-    <Home/>
+    {/* <Home/> */}
+    <RouterPages/>
   </React.StrictMode>,
   document.getElementById('root')
 );
