@@ -45,21 +45,21 @@ const rootReducer = (state = globalState,action) => {
 
 const store = createStore(rootReducer,applyMiddleware(thunk));
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     {/* <App/> */}
+ReactDOM.render(
+  <React.StrictMode>
+    {/* <App/> */}
    
-//     <Home/>
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+    <Home/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Provider store={store}>
-        <RouterPages/>
-    </Provider>
-);
+// root.render(
+//     <Provider store={store}>
+//         <RouterPages/>
+//     </Provider>
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
