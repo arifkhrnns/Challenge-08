@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link,useLocation } from 'react-router-dom';
 import CardAdmin from '../../Components/Card/CardAdmin';
 import { Admin } from '../Admin';
-import axios from 'axios';
+// import axios from 'axios';
 
 const CarAdmin = (props) => {
 
@@ -27,22 +27,20 @@ const CarAdmin = (props) => {
       }
     }
     console.log(location.state);
-  
-    
-  },[]);
+  },[item]);
 
-  const deleteCar = async (id) => {
+//   const deleteCar = async (id) => {
 
-    try {
-        let deleteStatus = await axios.delete('https://rent-cars-api.herokuapp.com/admin/car/'+ id);
+//     try {
+//         let deleteStatus = await axios.delete('https://rent-cars-api.herokuapp.com/admin/car/'+ id);
 
-        let result = await deleteStatus;
-    } catch (error) {
-        if (error.response) {
+//         let result = await deleteStatus;
+//     } catch (error) {
+//         if (error.response) {
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
   return (
     <Admin>

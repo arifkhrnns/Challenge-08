@@ -2,7 +2,7 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import RouterPages from './Routes/RouterPages';
 import { createStore, applyMiddleware } from 'redux';
 import {Provider} from 'react-redux';
@@ -47,14 +47,14 @@ const store = createStore(rootReducer,applyMiddleware(thunk));
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App/> */}
-    {/* <Home/> */}
-    <RouterPages/>
+    <Provider store={store}>
+        <RouterPages/>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //     <Provider store={store}>
 //         <RouterPages/>

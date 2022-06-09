@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                 <div class="col-md-6">
                     <div class="img-hero d-flex justify-content-end">
-                        <img src={car} alt="car-image" class="img-fluid"/>
+                        <img src={car} alt="" class="img-fluid"/>
                     </div>
                 </div>
             </div>

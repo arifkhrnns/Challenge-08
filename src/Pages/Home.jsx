@@ -5,7 +5,7 @@ import Panel from '../Components/Search/Search'
 import Footer from '../Components/Footer/Footer'
 import Service from '../Components/Service/Service'
 import WhyUs from '../Components/WhyUs/WhyUs'
-import Testimonial from '../Components/Testimonial/Testimonial'
+// import Testimonial from '../Components/Testimonial/Testimonial'
 import Order from '../Components/Order/Order'
 import FAQ from '../Components/FAQ/FAQ'
 import { Pie } from 'react-chartjs-2';

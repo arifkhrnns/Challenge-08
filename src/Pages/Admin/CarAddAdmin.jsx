@@ -9,7 +9,7 @@ const CarAddAdmin = () => {
     const [files, setFiles] = useState("");
     const [nama, setNama] = useState("");
     const [harga, setHarga] = useState("");
-    const [status, setStatus] = useState(0);
+    // const [status, setStatus] = useState(0);
     const [kategori, setKategori] = useState("");
     
 
@@ -17,7 +17,7 @@ const CarAddAdmin = () => {
         setFiles(acceptedFiles[0]);
     }, []);
 
-    const {acceptedFiles, getRootProps, getInputProps} = useDropzone({
+    const { getRootProps, getInputProps} = useDropzone({
         onDrop,
     });
 
