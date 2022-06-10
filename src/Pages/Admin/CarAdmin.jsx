@@ -27,7 +27,7 @@ const CarAdmin = (props) => {
     }
   
     
-  },[]);
+  },[location.state]);
 
 
   return (
@@ -41,7 +41,7 @@ const CarAdmin = (props) => {
 
     <div>
       <div className="d-flex justify-content-between">
-          <h4 className="fw-bold">List Card</h4>
+          <h4 className="fw-bold">List Car</h4>
           <Link to="/admin/car/add" className="btn btn-primary">
               <i className="fa-solid fa-plus"></i>
               Add new card
