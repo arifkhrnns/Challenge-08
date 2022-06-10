@@ -14,7 +14,7 @@ const CarAdmin = (props) => {
     const datas = async () => {
       let fetchs = await fetch('https://rent-cars-api.herokuapp.com/admin/car/');
       let datas = await fetchs.json();
-      setItem(item=datas)
+      setItem(datas)
     }
     
     datas();
