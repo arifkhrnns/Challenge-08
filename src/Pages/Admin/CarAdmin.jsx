@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link,useLocation } from 'react-router-dom';
 import CardAdmin from '../../Components/Card/CardAdmin';
 import { Admin } from '../Admin';
-// import axios from 'axios';
 
 const CarAdmin = (props) => {
 
@@ -20,12 +19,12 @@ const CarAdmin = (props) => {
     
     datas();
 
-    if(location.state != null){
-      if(location.state.addSuccess){
+    // if(location.state != null){
+    //   if(location.state.addSuccess){
 
-        setAdd(true);
-      }
-    }
+    //     setAdd(true);
+    //   }
+    // }
   
     
   },[item]);
