@@ -19,12 +19,12 @@ const CarAdmin = (props) => {
     
     datas();
 
-    // if(location.state != null){
-    //   if(location.state.addSuccess){
+    if(location.state != null){
+      if(location.state.addSuccess){
 
-    //     setAdd(true);
-    //   }
-    // }
+        setAdd(true);
+      }
+    }
   
     
   },[item]);
