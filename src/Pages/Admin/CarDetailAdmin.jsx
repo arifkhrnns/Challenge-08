@@ -14,14 +14,14 @@ const CarDetailAdmin = () => {
     const datas = async () => {
         let fetchs = await fetch('https://rent-cars-api.herokuapp.com/admin/car/' + id)
         let datas = await fetchs.json();
-        setItem(item=datas)
+        setItem(datas)
     }
 
     useEffect(() => {
 
         datas();
         
-    },[datas]);
+    },[]);
 
   return (
     <Admin>
