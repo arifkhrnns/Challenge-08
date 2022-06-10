@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router';
 import { BsPeople } from 'react-icons/bs';
@@ -14,7 +14,7 @@ const CarDetailAdmin = () => {
     const datas = async () => {
         let fetchs = await fetch('https://rent-cars-api.herokuapp.com/admin/car/' + id)
         let datas = await fetchs.json();
-        setItem(datas)
+        setItem(item = datas)
     }
 
     // useEffect(() => {
