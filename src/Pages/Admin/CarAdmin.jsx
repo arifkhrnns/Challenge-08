@@ -10,8 +10,6 @@ const CarAdmin = (props) => {
   let [item, setItem] = useState([]);
   let [add, setAdd] = useState(false);
 
-  
-
   useEffect(() => {
 
     const datas = async () => {
@@ -30,7 +28,9 @@ const CarAdmin = (props) => {
     }
   
     
-  },[item]);
+  },[
+    // 
+  ]);
 
 
   return (
