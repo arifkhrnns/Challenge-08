@@ -17,11 +17,11 @@ const CarDetailAdmin = () => {
         setItem(datas)
     }
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        datas();
+    //     datas();
         
-    },[datas]);
+    // },[datas]);
 
   return (
     <Admin>
