@@ -21,7 +21,7 @@ const CarDetailAdmin = () => {
 
         datas();
         
-    },[]);
+    },[datas]);
 
   return (
     <Admin>
